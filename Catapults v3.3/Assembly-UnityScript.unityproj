@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B7770B5E-7A42-A808-16D4-2A438CF84585}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_1;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Programs/Unity 4.2.1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Programs/Unity 4.2.1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\PickObject.js" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\TapToPickObject.js" />
+     <Compile Include="Assets\FingerGestures\SkeletonCode\JavascriptSkeleton.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\ParticleScale.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\PrefabGenerator.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\Raycast.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\activateWithDelay.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\destroyThisTimed.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\moveThis.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\moveThisAdvanced.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\rampDownParticle.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\rotateThis.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\DynamicElements_Effects\scripts\scaleThisTimed.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\AnimationUV.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\AnimationUV2.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\Camera.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\Explosion.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\ExplosionObject.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\ParticleSetting.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\Randommove.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\Randomrotation.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\Slash.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\Spawner.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\Wind.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\tailspawner.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\ExtremeFXvol1\Source\Scripts\tailtransformer.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\FT_MagicEffect_vol3\Script\DeadTime.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\MagicalEffects\Scripts\FxGateA_Add.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\MagicalEffects\Scripts\fps.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\MagicalEffects\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\MagicalEffects\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\MagicalEffects\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\MagicalEffects\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\MagicalEffects\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\Joystick.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ObliqueNear.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\PlayerRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RollABall.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RotationConstraint.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SidescrollControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
+     <None Include="Assets\StreamingAssets\QCAR\mymarkers.xml" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Qualcomm Augmented Reality\readme_SDK.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Qualcomm Augmented Reality\license_3rdpartynotice.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Readme.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\ExpandFillShaderPre.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\UnlitShaderPre.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\maps.xml" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\RadialFillShaderPre.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\VerticalFillShader.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShaderPre.shader" />
+     <None Include="Assets\Editor\QCAR\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\DepthMask.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\RadialFillShader.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\UnlitShader.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\ExpandFillShader.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\VerticalFillShaderPre.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShader.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\README.txt" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\unity.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+ <Reference Include="Photon3Unity3D">
+ <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="Qualcomm.Vuforia.UnityExtensions">
+ <HintPath>Assets\Qualcomm Augmented Reality\Scripts\Internal\Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1DD94342-0CD6-D93C-448E-16FF4C9DBE7A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

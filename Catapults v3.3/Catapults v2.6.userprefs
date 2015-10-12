@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyGame\C#\Other\DestructibleEnvironmentS.cs">
+    <Files>
+      <File FileName="Assets\MyGame\C#\Offline\GameManagerSingle.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyGame\C#\Other\DestructibleEnvironmentS.cs" Line="23" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

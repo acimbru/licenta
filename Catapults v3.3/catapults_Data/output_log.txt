@@ -1,0 +1,164 @@
+Initialize engine version: 4.2.1f4 (4d30acc925c2)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshimx.dll 9.18.13.4052]
+    Renderer: Intel(R) HD Graphics 3000
+    Vendor:   Intel
+    VRAM:     848 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll (this message is harmless)
+Loading D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\Qualcomm.Vuforia.UnityExtensions.dll into Unity Child Domain
+- Completed reload, in  0.066 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+Platform assembly: D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\licenta-sprint\Catapults v3.2\catapults_Data\Managed\System.dll (this message is harmless)
+Using C# Socket
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+OnCreatedRoom
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+The file 'D:/licenta-sprint/Catapults v3.2/catapults_Data/sharedassets2.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds! 5175840 > 5175836]
+ 
+(Filename:  Line: 276)
+
+The file 'D:/licenta-sprint/Catapults v3.2/catapults_Data/level1' is corrupted! Remove it and launch unity again!
+[Position out of bounds! 149968 > 149964]
+ 
+(Filename:  Line: 276)
+
+UnloadTime: 0.423872 ms
+Creating FingerGestures using Mouse Gestures
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3085.
+Total: 1.216708 ms (FindLiveObjects: 0.140093 ms CreateObjectMapping: 0.035921 ms MarkObjects: 0.521886 ms  DeleteObjects: 0.038487 ms)
+
+wind generated
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+WindBarReceived2
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+BarMSGSENT
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+OnPhotonPlayerConnected: Guest8322
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+switched
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+switched
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+received wind
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+received wind
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+switched
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+switched
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+wind generated
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+WindBarReceived3
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+BarMSGSENT
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+wind generated
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+WindBarReceived3
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+BarMSGSENT
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+DoubleTapD
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+wind sent
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+received wind
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+wind sent
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+received wind
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+OnPlayerDisconneced: Guest8322
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+OnLeftRoom (local)
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+OnDisconnectedFromPhoton
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+UnloadTime: 2.638169 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 112 unused Assets to reduce memory usage. Loaded Objects now: 731.
+Total: 1.292143 ms (FindLiveObjects: 0.024631 ms CreateObjectMapping: 0.015394 ms MarkObjects: 0.463899 ms  DeleteObjects: 0.367424 ms)
+
+UnloadTime: 0.339713 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 724.
+Total: 0.885205 ms (FindLiveObjects: 0.023605 ms CreateObjectMapping: 0.013855 ms MarkObjects: 0.446964 ms  DeleteObjects: 0.006671 ms)
+

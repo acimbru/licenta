@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyGame\C#\Other\ScrollScript.cs">
+    <Files>
+      <File FileName="Assets\MyGame\C#\Other\ScrollScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyGame\C#\Other\FireSingle.cs" Line="85" Column="9" />
+      <File FileName="Assets\MyGame\C#\Offline\PlayerControlsSingle.cs" Line="119" Column="46" />
+      <File FileName="Assets\MyGame\C#\Offline\TapMoveControls.cs" Line="105" Column="23" />
+      <File FileName="Assets\MyGame\C#\Networking\SettingsSingle.cs" Line="47" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

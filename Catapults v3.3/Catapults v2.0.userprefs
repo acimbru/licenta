@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyGame\C#\Other\Fire.cs">
+    <Files>
+      <File FileName="Assets\MyGame\C#\Networking\SoundScripts\SoundScripts.cs" Line="37" Column="1" />
+      <File FileName="Assets\MyGame\C#\Other\Fire.cs" Line="152" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

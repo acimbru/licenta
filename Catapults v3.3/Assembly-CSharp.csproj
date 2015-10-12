@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2910EF8A-2B88-B2E4-8237-142154A036BF}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_1;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Programs/Unity 4.2.1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Programs/Unity 4.2.1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\AdvancedPinchRotationSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\FingerEventsSamplePart1.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\FingerEventsSamplePart2.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\BasicSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\DragTrail.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\EmitParticles.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\MenuNode.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\SampleBase.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\SampleUI.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\StartMenu.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\SwipeParticlesEmitter.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\MultiFingerSwipeSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\OneFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\PinchRotationSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\ToolboxDragDropSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\ToolboxFingerEventsSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\ToolboxOneFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\TwoFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\TouchPhaseVisualizer.cs" />
+     <Compile Include="Assets\FingerGestures\SkeletonCode\CSharpSkeleton.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\Misc\TBDragOrbit.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\Misc\TBPinchZoom.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBComponent.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBDrag.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBFingerDown.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBFingerUp.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBInputManager.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBLongPress.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBSwipe.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBTap.cs" />
+     <Compile Include="Assets\FingerGestures\Utils\GestureStateTracker.cs" />
+     <Compile Include="Assets\FingerGestures\Utils\MoveToFinger.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\AboutGUI.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\ComponentNetwork.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\ComponentsManager.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\Freeze.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\GameCenter.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\HighScoresGUI.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\MainMenuGUI.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\MultiplayerGUI.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\PlayerControls.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\ProjectileNetwork.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\QuitGame.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\SettingsSingle.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\SinglePlayerGUI.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\SoundScripts\SoundScripts.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\ThirdPersonController.cs" />
+     <Compile Include="Assets\MyGame\C#\Networking\ThirdPersonNetwork.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\DestroyOnCollision.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\DisableGUI.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\GameManagerSingle.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\HSController.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\PlayerControlsSingle.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\Scores.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\TapMoveControls.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\TimerBonus.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\TimerSingle.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\center.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\exterior.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\middle.cs" />
+     <Compile Include="Assets\MyGame\C#\Offline\targetpractice.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\AbilityScript.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\Animate.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\BonusPack.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\Controller.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\DamageManager.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\DestroyPhysics.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\DestructibleEnvironmentM.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\DestructibleEnvironmentS.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\DetectHit.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\DisableShield.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\DummyScript.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\Fire.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\FireSingle.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\FollowTarget.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\HoveringHealth.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\ImpactRenderer.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\Joystick.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\PlayerHealth.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\RotatableGuiItem.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\ScrollScript.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\SmoothFollow.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\TimerScript.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\WindGenerator.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\WindPhysics.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\WorldPicker.cs" />
+     <Compile Include="Assets\MyGame\C#\Other\windType.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\EnergyBar.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\EnergyBarBase.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\EnergyBarRenderer.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\EnergyBarRenderer2.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\EnergyBarRepeatRenderer.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\EnergyBarSequenceRenderer.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\EnergyBarTransformRenderer.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\MadCommons\MadDebug.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\MadCommons\MadMatrix.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\MadCommons\MadTransform.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Scripts\SimpleEvent.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\FT_MagicEffect_vol3\Scene\Script\Button.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\MagicalEffects\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\prefabs\Scripts\autoDestruct.cs" />
+     <Compile Include="Assets\MyGame\Graphics\Particles\prefabs\Scripts\particletest.cs" />
+     <Compile Include="Assets\MyGame\Prefabs\aboutscene\ControlPreview.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RpcIndexComponent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdpNativeDllImport.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnAwakeUsePhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ServerTime.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TestDontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DataSetLoadBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\BGRenderingBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\KeepAliveBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MarkerBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SetBGCameraLayerBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WebCamBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <None Include="Assets\StreamingAssets\QCAR\mymarkers.xml" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Qualcomm Augmented Reality\readme_SDK.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Qualcomm Augmented Reality\license_3rdpartynotice.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Readme.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\ExpandFillShaderPre.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\UnlitShaderPre.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\maps.xml" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\RadialFillShaderPre.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\VerticalFillShader.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShaderPre.shader" />
+     <None Include="Assets\Editor\QCAR\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\DepthMask.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\RadialFillShader.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\UnlitShader.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\ExpandFillShader.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\VerticalFillShaderPre.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShader.shader" />
+     <None Include="Assets\MyGame\Graphics\Energy Bar Toolkit\README.txt" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\unity.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+ <Reference Include="Photon3Unity3D">
+ <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="Qualcomm.Vuforia.UnityExtensions">
+ <HintPath>Assets\Qualcomm Augmented Reality\Scripts\Internal\Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1DD94342-0CD6-D93C-448E-16FF4C9DBE7A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

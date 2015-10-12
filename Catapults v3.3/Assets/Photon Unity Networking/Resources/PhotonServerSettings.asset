@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  HostType: 1
+  ServerAddress: app-eu.exitgamescloud.com
+  ServerPort: 5055
+  AppID: dc3cec01-ccb7-46c3-b55d-8a526ba17617
+  RpcList:
+  - Marco
+  - Polo
+  - TaggedPlayer
+  - SetPosition
+  - Chat
+  - InstantiateRpc
+  - OnAwakeRPC
+  - DestroyRpc
+  - SpawnPlayer
+  - SetParent
+  - setParent
+  - Shoot
+  - NormalProjectile
+  - FireProjectile
+  - IceProjectile
+  - UpdatePredictionLine
+  - Firing
+  - ProjectileType
+  - TakeDamage
+  - Shield
+  - IncreaseHealth
+  - StartTimer
+  - ResetTimer
+  - SetTimer
+  - SwitchPlayer
+  - RandomPositions
+  - SetPositions
+  - SendValue
+  - MyValue
+  - p1Value
+  - p2Value
+  - Switch
+  - WindData
+  - RandomWind
+  - ApplyWind
+  - WindSetup
+  - ChangePos
+  - PowerType
+  - Impact
+  - SelfDestroy
+  - FrozenNetworking
+  - FrozenNetwork
+  - ShowIceTexture
+  - EndGame
+  - HitByRock
+  - HitByFire
+  - HitByIce
+  - DestroyObstacle
+  - AddHits
+  - Dead
+  - Hit_N
+  - Hit_F
+  - Hit_I
+  - Bonus_On
+  - Bonus_Picked
+  - Shield_On
+  - Shield_Off
+  - SetLevel
+  - GetLevel
+  DisableAutoOpenWizard: 0
